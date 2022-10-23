@@ -48,6 +48,9 @@ a {
   margin: -1px;
 }
 
+.container {
+  width: 1230px;
+}
 /* Шапка */
 
 .logo {

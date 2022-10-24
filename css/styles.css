@@ -133,13 +133,23 @@ a {
 /* Банер */
 
 .baner {
-  text-align: center;
   background-color: var(--primary-color-footer);
+}
+
+.baner .container {
+  text-align: center;
+  padding: 200px 0;
 }
 .baner-title {
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
 
   font-weight: 900;
   font-size: 44px;
@@ -155,6 +165,7 @@ a {
   padding: 10px 32px;
   min-width: 126px;
   text-align: center;
+  border: none;
 
   font-family: 'Roboto';
   font-weight: 700;
@@ -176,9 +187,16 @@ a {
   margin-bottom: 10px;
 }
 .section-list {
+  display: flex;
+  padding: 94px 0;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.section-list .item + .item {
+  margin-left: 40px;
 }
 
 .section-title,
@@ -190,6 +208,7 @@ a {
 
   color: var(--title-text-color);
 }
+
 .section-title,
 .options {
   margin-top: 0;
@@ -201,6 +220,10 @@ a {
 }
 
 /* Чим ми займаємось */
+
+.work {
+  padding-bottom: 94px;
+}
 
 .work-title {
   margin-top: 0;
@@ -215,11 +238,25 @@ a {
   color: var(--nav-primary-text-color);
 }
 
+.work-list {
+  display: flex;
+}
+
+.work-list .item + .item {
+  margin-left: 45px;
+}
+
 /* Наша команда */
 
-.command {
+.command-color {
   background-color: #f5f4fa;
 }
+
+.command {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .command-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -233,22 +270,43 @@ a {
   color: var(--title-text-color);
 }
 .surname-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--nav-primary-text-color);
 }
+
+.command-list {
+  display: flex;
+}
+.command-list .item + .item {
+  margin-left: 40px;
+}
+
+.command-list .item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  background: var(--primary-fon-color);
+}
+
 .position {
   margin-top: 0;
   margin-bottom: 0;
+  padding-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 

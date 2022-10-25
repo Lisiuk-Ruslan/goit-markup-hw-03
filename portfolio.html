@@ -20,86 +20,90 @@
 
   <body>
     <!--Шапка-->
-    <header class="container">
-      <div class="main">
-        <nav class="main-naf">
-          <a href="./index.html" class="logo">Web<span class="stydio">Studio</span> </a>
-          <ul class="site-nav">
-            <li class="item"><a href="./index.html" class="link">Студія</a></li>
-            <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-            <li class="item"><a href="" class="link">Контакти</a></li>
+    <div class="border">
+      <header class="container">
+        <div class="main">
+          <nav class="main-naf">
+            <a href="./index.html" class="logo">Web<span class="stydio">Studio</span> </a>
+            <ul class="site-nav">
+              <li class="item"><a href="./index.html" class="link">Студія</a></li>
+              <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+              <li class="item"><a href="" class="link">Контакти</a></li>
+            </ul>
+          </nav>
+          <ul class="contacts-nav">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+            </li>
           </ul>
-        </nav>
-        <ul class="contacts-nav">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-          </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </div>
-    </header>
+        </div>
+      </header>
+    </div>
     <!-- Контент -->
     <main>
-      <section class="portfolio">
+      <section class="portfolio container">
         <h1 class="visually-hidden">Портфоліо</h1>
-        <button class="button pointer" type="button">Усі</button>
-        <button class="button pointer" type="button">Веб-сайти</button>
-        <button class="button pointer" type="button">Додатки</button>
-        <button class="button pointer" type="button">Дизайн</button>
-        <button class="button pointer" type="button">Маркетинг</button>
-        <ul>
-          <li>
-            <img src="./images/project/project-1.jpg" alt="Технокряк" width="370" />
+        <div class="button-container">
+          <button class="button pointer" type="button">Усі</button>
+          <button class="button pointer" type="button">Веб-сайти</button>
+          <button class="button pointer" type="button">Додатки</button>
+          <button class="button pointer" type="button">Дизайн</button>
+          <button class="button pointer" type="button">Маркетинг</button>
+        </div>
+        <ul class="flex-container">
+          <li class="portfolio-element">
+            <img src="./images/project/project-1.jpg" alt="Технокряк" width="368" />
             <h2 class="portfolio-title">Технокряк</h2>
             <p class="portfolio-name">Веб-сайт</p>
           </li>
-          <li>
+          <li class="portfolio-element">
             <img
               src="./images/project/project-2.jpg"
               alt="Постер New Orlean vs Golden Star"
-              width="370"
+              width="368"
             />
             <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
             <p class="portfolio-name">Дизайн</p>
           </li>
-          <li>
-            <img src="./images/project/project-3.jpg" alt="Ресторан Seafood" width="370" />
+          <li class="portfolio-element">
+            <img src="./images/project/project-3.jpg" alt="Ресторан Seafood" width="368" />
             <h2 class="portfolio-title">Ресторан Seafood</h2>
             <p class="portfolio-name">Додаток</p>
           </li>
-          <li>
-            <img src="./images/project/project-4.jpg" alt="Проєкт Prime" width="370" />
+          <li class="portfolio-element">
+            <img src="./images/project/project-4.jpg" alt="Проєкт Prime" width="368" />
             <h2 class="portfolio-title">Проєкт Prime</h2>
             <p class="portfolio-name">Маркетинг</p>
           </li>
-          <li>
-            <img src="./images/project/project-5.jpg" alt="Проєкт Boxes" width="370" />
+          <li class="portfolio-element">
+            <img src="./images/project/project-5.jpg" alt="Проєкт Boxes" width="368" />
             <h2 class="portfolio-title">Проєкт Boxes</h2>
             <p class="portfolio-name">Додаток</p>
           </li>
-          <li>
+          <li class="portfolio-element">
             <img
               src="./images/project/project-6.jpg"
               alt="Inspiration has no Borders"
-              width="370"
+              width="368"
             />
             <h2 class="portfolio-title">Inspiration has no Borders</h2>
             <p class="portfolio-name">Веб-сайт</p>
           </li>
-          <li>
-            <img src="./images/project/project-7.jpg" alt="Видання Limited Edition" width="370" />
+          <li class="portfolio-element">
+            <img src="./images/project/project-7.jpg" alt="Видання Limited Edition" width="368" />
             <h2 class="portfolio-title">Видання Limited Edition</h2>
             <p class="portfolio-name">Дизайн</p>
           </li>
-          <li>
-            <img src="./images/project/project-8.jpg" alt="Проєкт LAB" width="370" />
+          <li class="portfolio-element">
+            <img src="./images/project/project-8.jpg" alt="Проєкт LAB" width="368" />
             <h2 class="portfolio-title">Проєкт LAB</h2>
             <p class="portfolio-name">Маркетинг</p>
           </li>
-          <li>
-            <img src="./images/project/project-9.jpg" alt="Growing Business" width="370" />
+          <li class="portfolio-element">
+            <img src="./images/project/project-9.jpg" alt="Growing Business" width="368" />
             <h2 class="portfolio-title">Growing Business</h2>
             <p class="portfolio-name">Додаток</p>
           </li>

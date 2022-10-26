@@ -192,7 +192,7 @@ a {
 }
 .section-list {
   display: flex;
-  margin: 94px 0;
+  padding: 94px 0;
 
   font-size: 14px;
   line-height: 1.71;
@@ -226,8 +226,7 @@ a {
 /* Чим ми займаємось */
 
 .work {
-  /* padding-bottom: 94px; */
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .work-title {

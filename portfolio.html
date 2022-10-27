@@ -21,38 +21,38 @@
   <body>
     <!--Шапка-->
     <div class="border">
-      <header class="container">
-        <div class="main">
-          <nav class="main-naf">
-            <a href="./index.html" class="logo">Web<span class="stydio">Studio</span> </a>
-            <ul class="site-nav">
-              <li class="item"><a href="./index.html" class="link">Студія</a></li>
-              <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-              <li class="item"><a href="" class="link">Контакти</a></li>
-            </ul>
-          </nav>
-          <ul class="contacts-nav">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
-            </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
-            </li>
+      <header>
+      <div class="container main">
+        <nav class="main-naf">
+          <a href="./index.html" class="logo">Web<span class="stydio">Studio</span> </a>
+          <ul class="site-nav">
+            <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
           </ul>
-        </div>
-      </header>
+        </nav>
+        <ul class="contacts-nav">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
     </div>
     <!-- Контент -->
     <main>
       <section class="portfolio container">
         <h1 class="visually-hidden">Портфоліо</h1>
-        <div class="button-container">
+        <ul class="button-container">
           <button class="button pointer" type="button">Усі</button>
           <button class="button pointer" type="button">Веб-сайти</button>
           <button class="button pointer" type="button">Додатки</button>
           <button class="button pointer" type="button">Дизайн</button>
           <button class="button pointer" type="button">Маркетинг</button>
-        </div>
+        </ul>
         <ul class="flex-container">
           <li class="portfolio-element">
             <img src="./images/project/project-1.jpg" alt="Технокряк" width="368" />
@@ -111,11 +111,9 @@
       </section>
     </main>
     <!--Підвал-->
-    <div class="footer-color">
-      <footer class="container">
-        <div class="footer-logo">
-          <a href="./index.html" class="logo">Web<span class="stydio-footer">Studio</span> </a>
-        </div>
+    <footer>
+      <div class="container">
+        <a href="./index.html" class="logo-footer">Web<span class="stydio-footer">Studio<span> </a>
         <address>
           <ul class="address-nav">
             <li class="addres-https">
@@ -130,10 +128,12 @@
             <li class="mail">
               <a href="mailto:info@devstudio.com" class="nav-link">info@devstudio.com</a>
             </li>
-            <li class="tel"><a href="tel:+380961111111" class="nav-link">+38 096 111 11 11</a></li>
+            <li class="tel">
+              <a href="tel:+380961111111" class="nav-link">+38 096 111 11 11</a>
+            </li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

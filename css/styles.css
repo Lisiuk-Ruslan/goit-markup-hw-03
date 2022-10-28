@@ -339,6 +339,9 @@ footer {
 }
 
 .logo-footer {
+  display: block;
+  margin-bottom: 20px;
+
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -350,7 +353,6 @@ footer {
 
 .stydio-footer {
   color: var(--h1-text-color);
-  margin-bottom: 20px;
 }
 
 .address-nav .link {
@@ -400,8 +402,6 @@ footer {
 .portfolio {
   margin-top: 94px;
   margin-bottom: 94px;
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
 }
 
 .portfolio .button {
@@ -419,11 +419,13 @@ footer {
   color: var(--nav-primary-text-color);
 }
 .button-container {
-  text-align: center;
+  display: flex;
+  /* align-items: center; */
   margin-bottom: 34px;
+  justify-content: center;
 }
 
-.button-container .button + .button {
+.button-container li + li {
   margin-left: 8px;
 }
 
@@ -450,17 +452,19 @@ footer {
 }
 
 .portfolio-element {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+}
+
+.section-portfolio {
+  padding: 20px 24px;
+
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .portfolio-title {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 24px;
-  padding-top: 20px;
-  padding-bottom: 4px;
-  padding-right: 24px;
+  margin-bottom: 4px;
 
   font-weight: 700;
   font-size: 18px;
@@ -473,9 +477,6 @@ footer {
 .portfolio-name {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 24px;
-  padding-bottom: 20px;
-  padding-right: 24px;
 
   font-size: 16px;
   line-height: 1.88;
